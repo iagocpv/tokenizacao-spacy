@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Além disso, é necessário baixar o modelo de linguagem do spaCy para português:
 
 ```
-python -m spacy download pt_core_news_sm
+pip install https://github.com/explosion/spacy-models/releases/download/pt_core_news_sm-3.7.0/pt_core_news_sm-3.7.0.tar.gz
 ```
 
 ## Como usar
